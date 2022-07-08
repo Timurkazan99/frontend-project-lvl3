@@ -4,6 +4,7 @@
   "description": "RSS aggregator",
   "main": "./src/index.js",
   "scripts": {
+    "build": "npx webpack",
     "test": "npx jest --bail",
     "lint": "npx eslint ."
   },

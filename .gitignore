@@ -4,3 +4,4 @@ node_modules
 coverage
 stage.js
 .DS_Store
+dist
