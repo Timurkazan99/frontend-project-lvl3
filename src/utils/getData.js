@@ -38,7 +38,7 @@ const getNewPosts = (watchState, link, delay) => {
 
 export default (watchState, value, elements) => {
   makeFetch(value, watchState)
-    .then((responce) => {2
+    .then((responce) => {
       if (!responce.ok) {
         throw new Error('netWorkError');
       }
